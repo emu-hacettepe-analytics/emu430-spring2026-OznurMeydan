@@ -13,30 +13,36 @@ My first assignment has two parts.
 
 ## (a) Video Summary
 
-I watched the talk **"Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler – Kerem Demirtaş & Erdi Daşdemir"**.
+I watched the talk **“Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Baykal Hafızoğlu & Erdi Daşdemir.”**
 
-In this talk, the speakers discuss the relationship between data science and industrial engineering. They explain how industrial engineers increasingly rely on data-driven decision making, optimization, and analytics to improve systems. The conversation highlights the importance of programming skills, statistical thinking, and interdisciplinary knowledge in modern engineering careers.
+In this talk, Baykal Hafızoğlu talks about his education and career journey. He graduated from Industrial Engineering at METU, completed his master’s degree, and then moved to the United States for his PhD at Arizona State University. After finishing his PhD, he started working in industry and continued his career in operations research, optimization, and analytics roles in different companies in the US.
 
-### Open-ended Question
+One important point in the talk is that industrial engineering provides a strong background for analytics. He explains that the courses taken in industrial engineering, such as statistics, optimization, simulation, and data-related courses, are connected to descriptive, diagnostic, predictive, and prescriptive analytics. He also says that students should understand how these areas are related instead of seeing courses as separate subjects.
+
+Another important message is that solving a model is not enough by itself. He emphasizes that analytical models should be delivered to end users in a usable way. According to him, deployment, user interface, early prototyping, and feedback from users are very important in real projects. He says that even a strong analytical model may fail if it cannot be explained well or used easily by people.
+
+Overall, the talk shows that technical skills such as mathematical modeling, coding, and optimization are important, but communication, problem definition, and delivering practical solutions are also necessary for success in this field.
+
+### Open-Ended Question
 
 **Question:**  
-Why is data science becoming increasingly important for industrial engineers?
+According to Baykal Hafızoğlu, why is deployment as important as building a strong analytical or optimization model?
 
 **Answer:**  
-Because industrial engineers work with complex systems and large amounts of operational data. Data science allows them to analyze this data, identify patterns, and make better decisions to optimize processes and improve efficiency.
+Because a model creates value only when end users can actually use it in practice. In the talk, he explains that many projects fail not because the model is weak, but because the solution is not delivered properly. Deployment, user interface, early prototypes, and user feedback are important because they help transform a technical model into a practical tool that people can use in real business settings.
 
 ### Multiple Choice Question
 
 **Question:**  
-Which skill is emphasized in the talk as essential for data-driven decision making?
+Which of the following skills did Baykal Hafızoğlu especially recommend for students who want to work in optimization and operations research?
 
-A) Mechanical design  
-B) Programming and data analysis  
-C) Electrical circuit design  
-D) Chemical processing  
+A) Only memorizing solver commands  
+B) Mathematical modeling and coding skills  
+C) Learning only visualization tools  
+D) Focusing only on academic writing  
 
 **Correct Answer:**  
-B) Programming and data analysis
+**B) Mathematical modeling and coding skills**
 
 ---
 
