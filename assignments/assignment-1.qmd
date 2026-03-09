@@ -7,9 +7,127 @@ title: "Assignment 1"
 ```{r}
 1 + 1
 ```
+# Assignment 1
 
 My first assignment has two parts.
 
-## (a)
+## (a) Video Summary
 
-## (b)
+I watched the talk **"Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler – Kerem Demirtaş & Erdi Daşdemir"**.
+
+In this talk, the speakers discuss the relationship between data science and industrial engineering. They explain how industrial engineers increasingly rely on data-driven decision making, optimization, and analytics to improve systems. The conversation highlights the importance of programming skills, statistical thinking, and interdisciplinary knowledge in modern engineering careers.
+
+### Open-ended Question
+
+**Question:**  
+Why is data science becoming increasingly important for industrial engineers?
+
+**Answer:**  
+Because industrial engineers work with complex systems and large amounts of operational data. Data science allows them to analyze this data, identify patterns, and make better decisions to optimize processes and improve efficiency.
+
+### Multiple Choice Question
+
+**Question:**  
+Which skill is emphasized in the talk as essential for data-driven decision making?
+
+A) Mechanical design  
+B) Programming and data analysis  
+C) Electrical circuit design  
+D) Chemical processing  
+
+**Correct Answer:**  
+B) Programming and data analysis
+
+---
+
+## (b) Data Analysis with R
+
+### Import the dataset
+
+```{r}
+library(dslabs)
+data("polls_us_election_2016")
+
+data <- polls_us_election_2016
+```
+
+### Define personal variables
+
+```{r}
+my_first <- "Oznur"
+my_birth_year <- 2003
+```
+
+### Calculate k
+
+```{r}
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+k
+```
+
+### Display rows depending on k
+
+```{r}
+if (k %% 2 == 0) {
+  selected_rows <- head(data, k)
+} else {
+  selected_rows <- tail(data, k)
+}
+
+selected_rows
+```
+
+### Count NA values
+
+```{r}
+total_na <- sum(is.na(data))
+total_na
+```
+
+```{r}
+na_per_column <- sort(colSums(is.na(data)), decreasing = TRUE)
+head(na_per_column, 8)
+```
+
+### Replace NA values
+
+```{r}
+new_data <- data
+
+numeric_cols <- sapply(new_data, is.numeric)
+
+for (col in names(new_data)[numeric_cols]) {
+  new_data[[col]][is.na(new_data[[col]])] <- my_birth_year + k
+}
+```
+
+```{r}
+char_factor_cols <- sapply(new_data, function(x) is.character(x) | is.factor(x))
+
+for (col in names(new_data)[char_factor_cols]) {
+  new_data[[col]] <- as.character(new_data[[col]])
+  new_data[[col]][is.na(new_data[[col]])] <- paste0(my_first, "_", k)
+}
+```
+
+### Display rows from new dataset
+
+```{r}
+if (k %% 2 == 0) {
+  new_selected_rows <- head(new_data, k)
+} else {
+  new_selected_rows <- tail(new_data, k)
+}
+
+new_selected_rows
+```
+
+### Check remaining NA values
+
+```{r}
+sum(is.na(new_data))
+```
+
+```{r}
+anyNA(new_data)
+```
