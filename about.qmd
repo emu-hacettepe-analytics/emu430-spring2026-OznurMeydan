@@ -5,26 +5,68 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+- **B.S., Industrial Engineering**, Hacettepe University, Turkey (Expected 2026)
 
 # Work Experience
 
-## Employements
+## Long-Term Internship
 
-1.  Firm xxx, position xx, year xxx
+**Operations and Business Development Intern – Enerjisa Eşarj**, Ankara, Turkey  
+*2025 – Present*
 
-2.  Firm yyy, position yyy, year yyy
+- Support data-driven decision-making processes through market analysis, performance monitoring, and strategic evaluations related to electric vehicle charging infrastructure.
+- Contribute to analytical reports focusing on network growth, operational performance, and strategic partnerships.
+- Assist in evaluating charging station performance and market dynamics within the EV ecosystem.
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+**Production and Sales Intern – Eltaş Transformer Industry and Trade Inc.**, İzmir, Turkey  
+*2023*
 
-2.  Firm bbb, position yyy, year yyy
+- Completed a two-month rotational internship in production and sales departments.
+- Gained hands-on experience in transformer manufacturing processes, workflow efficiency, and quality control practices.
+- Assisted the sales team with quotation preparation and tracking customer inquiries.
+
+**Research Support Intern – Magiçe Design & Technology**, Ankara, Turkey  
+*2023*
+
+- Supported research and analytical tasks in design and technology-focused projects.
+- Assisted in data collection, reporting, and project development processes.
 
 # Projects
 
+**Founder – Re-Brick Initiative**  
+*2023 – 2024*
+
+- Developed a startup concept focused on transforming construction waste into standardized brick materials.
+- Collaborated with Özyeğin University during the TÜBİTAK BİGG entrepreneurship application process.
+- Presented the project in entrepreneurship competitions in Ankara and Istanbul and received feedback from industry professionals.
+
+**Research Project – Space Logistics Optimization (TÜBİTAK)**  
+*2025 – Present*
+
+- Contributing to a research project focusing on optimization in space logistics systems.
+- Working on modeling complex logistics operations, scenario-based evaluations, and efficiency analysis for space mission supply chains.
+
+**Graduation Project – Renault MAİS**  
+*2025 – 2026*
+
+**Improving Visit Frequency and Routing Decisions in Nationwide Spare Parts Distribution with a Demand Forecast-Driven Hybrid Heuristic Optimization Approach**
+
+- Developing data-driven optimization approaches for real-world automotive logistics systems.
+- Applying demand forecasting, analytics, and hybrid heuristic optimization techniques to improve operational efficiency.
+
 # Competencies
 
-R, Quarto, Git, Python
+- **Programming & Data Analysis:** Python, R, MATLAB  
+- **Data & Business Analytics:** Excel, Power BI, Minitab  
+- **Engineering & Simulation:** Arena, SolidWorks  
+- **Business & Design Tools:** SAP, Figma  
+- **Technical Skills:** Git, Quarto
 
 # Hobbies
+
+- Swimming  
+- Knitting and crochet  
+- Cross-stitch embroidery  
+- Drawing and illustration
