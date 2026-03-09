@@ -2,6 +2,9 @@
 title: "About Me"
 sidebar: false 
 ---
+# CV
+
+[Download my CV](Oznur_Meydan_CV.pdf)
 
 # Education
 
